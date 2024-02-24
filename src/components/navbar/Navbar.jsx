@@ -28,13 +28,13 @@ const Navbar = () => {
                 <p>Aviation Regularity</p>
               </Link>
               <Link href="/home-link2">
-                <p>Air Travelers' Consulting</p>
+                <p>Air Travelers&apos; Consulting</p>
               </Link>
               <Link href="/home-link2">
                 <p>Airline Consulting</p>
               </Link>
               <Link href="/home-link2">
-                <p>Airport Consulting Providen's</p>
+                <p>Airport Consulting Providen&apos;s</p>
               </Link>
               <Link href="/home-link2">
                 <p>Air Navigation Consulting</p>
@@ -43,7 +43,7 @@ const Navbar = () => {
                 <p>Aviation & Environment</p>
               </Link>
               <Link href="/home-link2">
-                <p>Ground Handling Service Providen's Consulting</p>
+                <p>Ground Handling Service Providen&apos;s Consulting</p>
               </Link>
               <Link href="/home-link2">
                 <p>Safety and FLight Operations Consulting</p>
@@ -112,7 +112,7 @@ const Navbar = () => {
                 <p>Vision & Mission</p>
               </Link>
               <Link href="/home-link2">
-                <p>FAQ's</p>
+                <p>FAQ&apos;s</p>
               </Link>
               <Link href="/home-link2">
                 <p>Latest News and Highlights</p>
