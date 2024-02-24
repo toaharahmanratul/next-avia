@@ -80,7 +80,7 @@
   width: max-content;
   padding: 0 3rem 0 0.5rem;
   border-radius: 5px;
-  background-color: rgba(60, 60, 60, 0.588);
+  background-color: rgba(60, 60, 60, 0.75);
   font-weight: bold;
   transition: transform 0.8s ease, padding-left 0.8s ease;
 }

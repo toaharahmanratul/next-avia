@@ -2,8 +2,58 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  height: 5rem;
+  background-color: rgb(0, 0, 0);
+  height: 30rem;
   color: white;
+  margin-top: 8rem;
+  position: relative;
+  width: 100%;
+}
+.floatDiv {
+  height: 7rem;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(220, 93, 47),
+    rgb(199, 64, 104)
+  );
+  color: black;
+  width: 80%;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: -3.5rem;
+  color: white;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+}
+.footerContentDiv {
   margin-top: 2rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 25% 40%;
+  gap: 3rem;
+  padding: 0 10rem;
+}
+.footerInfoDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+}
+.footerInfoDiv h1 {
+  font-size: 3rem;
+}
+.socialDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.linksDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 2.5rem;
+}
+.socialDiv a {
+  color: gray;
 }
