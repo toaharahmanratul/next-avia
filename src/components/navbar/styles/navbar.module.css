@@ -1,0 +1,64 @@
+.mainContainer {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem 0.5rem 2.5rem;
+  background-color: var(--light-gray);
+}
+.mainContainer a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.mainContainer h1,
+.mainContainer p {
+  margin: 0;
+  padding: 0;
+}
+.logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.logoDiv img {
+  width: 5rem;
+}
+.logoTextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.logoTextDiv h1 {
+  font-size: 2.3rem;
+  color: black;
+}
+.logoTextDiv p {
+  font-size: 1.1rem;
+  color: var(--gray-text);
+}
+
+.ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.li {
+  padding: 0.1rem;
+}
+.loginRegister {
+  background-color: var(--gray);
+  color: var(--primary-color) !important;
+  padding: 0.2rem 1rem 0.5rem 1rem;
+  border-radius: 5px;
+}
