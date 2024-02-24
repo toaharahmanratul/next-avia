@@ -5,7 +5,7 @@ import Link from "next/link";
 const AreasOfConsultancy = () => {
   return (
     <div className={`${styles.mainContainer}`}>
-      <h1>Our Areas of Consultancy</h1>
+      <h1>OUR AREAS OF CONSULTANCY</h1>
       <div className={`${styles.cardDiv}`}>
         <Link href="#" className={`${styles.card}`}>
           <img src="/images/legislation.jpg" alt="" />

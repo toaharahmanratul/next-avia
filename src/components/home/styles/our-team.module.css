@@ -4,25 +4,27 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 2rem;
-  margin-bottom: 2rem;
+  padding: 1rem 2rem 2rem 2rem;
+  background-color: var(--gray);
 }
 .mainContainer h1 {
   font-size: 2.5rem;
 }
 .cardDiv {
-  width: 100%;
+  width: 80%;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   margin-top: 1rem;
 }
 .card {
+  width: 80%;
+  height: 15rem;
   position: relative;
   text-align: center;
   border-radius: 10px;
   overflow: hidden;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.685);
 }
 .card img {
   width: 100%;
@@ -33,14 +35,24 @@
   transition: transform 0.2s ease;
 }
 .card:hover img {
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 .card h2 {
+    width: 100%;
   position: absolute;
-  top: 50%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
   color: white;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
+}
+.card p {
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: white;
+  font-size: 1.5rem;
 }

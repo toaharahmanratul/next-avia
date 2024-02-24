@@ -3,6 +3,7 @@ import React from "react";
 import styles from "./styles/home-component.module.css";
 import Carousel from "./Corousel";
 import AreasOfConsultancy from "./AreasOfConsultancy";
+import OurTeam from "./OurTeam";
 
 const HomeComponent = () => {
   return (
@@ -12,6 +13,9 @@ const HomeComponent = () => {
       </div>
       <div>
         <AreasOfConsultancy />
+      </div>
+      <div>
+        <OurTeam />
       </div>
     </div>
   );
